@@ -314,3 +314,6 @@ notebooks/.ipynb_checkpoints/
 # Arquivos temporários do sistema
 Thumbs.db
 ehthumbs.db
+
+# Legacy - backups não versionados
+A3_LOCAL/data/legacy/
