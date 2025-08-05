@@ -11,14 +11,12 @@
             "id": "b9f7c2f571c348c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "docs/docs/index.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/docs/Modelo de Negócio e Projeção Financeir.pdf"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-file-text",
+              "title": "Modelo de Negócio e Projeção Financeir"
             }
           }
         ]
@@ -168,22 +166,30 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0b53311fb63a6e14",
+  "active": "b9f7c2f571c348c0",
   "lastOpenFiles": [
+    "prompts/Modelo Financeiro/Chat (1).pdf",
+    "desenvolvimento do trabalho/Chat (9).txt",
+    "prompts/Modelo Financeiro/Chat (9) 1.txt",
+    "prompts/Modelo Financeiro/Chat (9).txt",
+    "desenvolvimento do trabalho/Deck B – 8 slides (versão detalhada).md",
+    "notebooks/simulacao_margem_3agd.ipynb",
+    "desenvolvimento do trabalho/Modelo-de-Negocio-e-Projecao-Financeira-Consultoria-and-Framework-3AGD.pdf",
+    "desenvolvimento do trabalho/Deck B – 8 slides (versão detalhada).pdf",
+    "desenvolvimento do trabalho/Deck A – 5 slides (pitch relâmpago).pdf",
+    "desenvolvimento do trabalho/Deck A – 5 slides (pitch relâmpago).md",
+    "prompts/Modelo Financeiro/Sem título.md",
+    "prompts/Modelo Financeiro/~$at (1).docx",
     "docs/docs/TRABALHOS ENTREGUES/Modelo de Negócio e Projeção Financeir.md",
-    "notebooks/Modelo de negocio.ipynb",
+    "desenvolvimento do trabalho/Sem título.canvas",
+    "docs/docs/TRABALHOS ENTREGUES/RESUMO PARA GAMMA.md",
+    "desenvolvimento do trabalho",
+    "docs/docs/Modelo de Negócio e Projeção Financeir.pdf",
+    "docs/docs/index.md",
     "docs/docs/TRABALHOS ENTREGUES/Panfleto de venda.md",
     "docs/docs/TRABALHOS ENTREGUES/Elasticidade das margens.md",
     "docs/docs/TRABALHOS ENTREGUES/# Modelo de Negócio e Projeção Financeir.md",
-    "prompts/Modelo Financeiro/Chat (1).docx",
     "docs/docs/getting-started.md",
-    "docs/docs/index.md",
-    "docs/README.md",
-    "docs/docs/TRABALHOS ENTREGUES/PARTE 2 - SLIDES.pdf",
-    "prompts/Modelo Financeiro",
-    "prompts",
-    "docs/Nova pasta",
-    "docs/docs/TRABALHOS ENTREGUES/PARTE 1- TEXTO.pdf",
-    "docs/docs/TRABALHOS ENTREGUES/PARTE 1- SLIDES.pdf"
+    "docs/README.md"
   ]
 }

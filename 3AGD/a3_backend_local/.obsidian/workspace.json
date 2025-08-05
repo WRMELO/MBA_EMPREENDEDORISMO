@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "eef7d78a150fdd1a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bf11fafe16402ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51f4cd4ba67e6c54",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4abd5f1d7880ba71",
+    "type": "split",
+    "children": [
+      {
+        "id": "f11dc55d8f0edb8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85555cce59afdbb0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "4d8fe878b65bbb93",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "509e74ddbaebd029",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "48b972921bc99d33",
+    "type": "split",
+    "children": [
+      {
+        "id": "6da7e1458f739716",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f37f76ac448f27a9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "138e5109890c0924",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "fc7362c2821c1117",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "14e207452aec873b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "85555cce59afdbb0",
+  "lastOpenFiles": [
+    "base_raw/artigos/Diversity_in_ensemble_feature_selection.pdf",
+    "base_raw/COPIA_DE_SEGURANCA/Dynamic_integration_of_classifiers_for_h.pdf",
+    "base_raw/artigos/Dynamic_integration_of_classifiers_for_h.pdf",
+    "base_raw/COPIA_DE_SEGURANCA/A_Review_on_Ash_Agglomeration_Phenomenon.pdf",
+    "base_relevantes/A_Review_on_Ash_Agglomeration_Phenomenon.pdf",
+    "base_raw/COPIA_DE_SEGURANCA/THE_AVAILABILITY_AND_UTILISATION_OF_GIRL.pdf",
+    "base_raw/artigos/THE_AVAILABILITY_AND_UTILISATION_OF_GIRL.pdf",
+    "base_raw/COPIA_DE_SEGURANCA/CFD_Analysis_of_a_Rocket_Nozzle_with_Fou.pdf",
+    "base_raw/artigos/CFD_Analysis_of_a_Rocket_Nozzle_with_Fou.pdf",
+    "base_raw/COPIA_DE_SEGURANCA/Information_and_Communication_Technology.pdf",
+    "base_raw/artigos/Information_and_Communication_Technology.pdf",
+    "ssot_a3/VELTECH_VEL_TECH_MULTI_TECH_VEL_TECH_HIG.md",
+    "ssot_a3/IMPROVING_STEAM_BOILER_OPERATING_EFFICIE.md",
+    "ssot_a3/BEST_PRACTICE_MANUAL_C_CO_OG_GE_EN_NE_ER.md",
+    "ssot_a3/Utilizing_biomass_and_waste_for_power_pr.md",
+    "ssot_a3/2_Edition_Practical_guide_for_Emission_a.md",
+    "ssot_a3/Technology_and_carbon_mitigation_in_deve.md",
+    "ssot_a3/Oxy_Combustion_Burner_and_Integrated_Pol.md",
+    "ssot_a3/CFD_modeling_to_study_fluidized_bed_comb (9).md",
+    "ssot_a3/Steam_Power_Plant_UNIT_2_STEAM_POWER_PLA.md",
+    "ssot_a3/Advances_in_mathematical_modeling_of_flu.md",
+    "ssot_a3/A_scoping_study_on_Oxy_CFB_technology_as (7).md",
+    "ssot_a3/Advances_in_Biomass_Co_Combustion_with_F.md",
+    "ssot_a3/Dynamics_and_control_of_large_scale_flui.md",
+    "ssot_a3/Combustion.md",
+    "ssot_a3/Sulfur_trioxide_formation_emissions_in_c.md",
+    "ssot_a3/EPA_Combined_Heat_and_Power_Partnership.md",
+    "ssot_a3/THERMAL_SYSTEMS.md",
+    "ssot_a3/Oxidant_control_and_air_oxy_switching_co.md",
+    "ssot_a3/Evaluation_of_performance_of_industrial.md",
+    "ssot_a3/A_decoupled_approach_for_NOx_N2O_3_D_CFD.md",
+    "ssot_a3/To_Improve_Thermal_Efficiency_of_27mw_Co.md",
+    "ssot_a3/Coal_Comminution_Characterization_for_In.md",
+    "ssot_a3/Thermal_Power_Station_2_1_INTRODUCTION.md",
+    "ssot_a3/Steam_41_Steam_Generation_An_Overview_Th.md",
+    "ssot_a3/Steam_Generation_An_Overview.md",
+    "a3_backend/venv/Lib/site-packages/win32comext/axscript/Demos/client/ie/pycom_blowing.gif",
+    "a3_backend/venv/Lib/site-packages/win32com/HTML/image/pycom_blowing.gif",
+    "a3_backend/venv/Lib/site-packages/sympy/plotting/tests/test_region_xor.png",
+    "a3_backend/venv/Lib/site-packages/ipykernel/resources/logo-svg.svg",
+    "a3_backend/venv/share/jupyter/kernels/python3/logo-svg.svg",
+    "a3_backend/venv/Lib/site-packages/sympy/plotting/tests/test_region_or.png",
+    "a3_backend/venv/Lib/site-packages/sympy/plotting/tests/test_region_not.png",
+    "a3_backend/venv/Lib/site-packages/sympy/plotting/tests/test_region_and.png",
+    "a3_backend/venv/Lib/site-packages/win32com/HTML/image/pythoncom.gif",
+    "a3_backend/venv/Lib/site-packages/win32/Demos/images/smiley.bmp"
+  ]
+}

@@ -1,0 +1,16 @@
+services:
+  a3_backend:
+    build: .
+    container_name: a3_backend_service
+    ports:
+      - "8000:8000"
+    volumes:
+      - ${GEMEO_PATH}:/app/GEMEO_DIGITAL
+    environment:
+      - GEMEO_PATH=${GEMEO_PATH}
+      - GOOGLE_API_KEY=AIzaSyD5j_CQsGOPbC35cgmROaBAgxiNNwKMkMc
+    restart: unless-stopped
+
+volumes:
+  gem3a_digital_data:
+    driver: local
