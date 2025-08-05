@@ -1,22 +1,20 @@
 {
   "main": {
-    "id": "5239f44e5846fa09",
+    "id": "cd00bfcb062349b5",
     "type": "split",
     "children": [
       {
-        "id": "03c01f014a6706b6",
+        "id": "00315fa525d42440",
         "type": "tabs",
         "children": [
           {
-            "id": "b9f7c2f571c348c0",
+            "id": "d249e11d664738a9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "docs/docs/Modelo de Negócio e Projeção Financeir.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Modelo de Negócio e Projeção Financeir"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
             }
           }
         ]
@@ -25,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c314c031d0c278f2",
+    "id": "f1f95e27ccb060f6",
     "type": "split",
     "children": [
       {
-        "id": "461d0fb88c1afaf0",
+        "id": "2234e3b871157698",
         "type": "tabs",
         "children": [
           {
-            "id": "0b53311fb63a6e14",
+            "id": "8ae4e2c5303010a0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +44,7 @@
             }
           },
           {
-            "id": "bcb6ea37ed5d6616",
+            "id": "e0653c898976db5d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +61,7 @@
             }
           },
           {
-            "id": "bbd5173f19b19c76",
+            "id": "b4381562a6e14504",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "408c879fd8d03e5c",
+    "id": "b3b2862d0f122dd7",
     "type": "split",
     "children": [
       {
-        "id": "79f4294fb596a635",
+        "id": "c6dbb09739eac51b",
         "type": "tabs",
         "children": [
           {
-            "id": "4cbfbddfd87ff817",
+            "id": "8bbd27cc4bca5c1e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/docs/TRABALHOS ENTREGUES/PARTE 2 - SLIDES.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para PARTE 2 - SLIDES"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "d13651074299a13b",
+            "id": "819979da7f4c9ed0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/docs/TRABALHOS ENTREGUES/PARTE 2 - SLIDES.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para PARTE 2 - SLIDES"
+              "title": "Links de saída"
             }
           },
           {
-            "id": "44ff36a729e7b78a",
+            "id": "4a4d70be5109178d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,18 +131,17 @@
             }
           },
           {
-            "id": "61732bc917ab37ac",
+            "id": "be3e778d682931f6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docs/TRABALHOS ENTREGUES/PARTE 2 - SLIDES.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de PARTE 2 - SLIDES"
+              "title": "Sumário"
             }
           }
         ]
@@ -166,31 +161,6 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b9f7c2f571c348c0",
-  "active": "b9f7c2f571c348c0",
-  "lastOpenFiles": [
-    "prompts/Modelo Financeiro/Chat (1).pdf",
-    "desenvolvimento do trabalho/Chat (9).txt",
-    "prompts/Modelo Financeiro/Chat (9) 1.txt",
-    "prompts/Modelo Financeiro/Chat (9).txt",
-    "desenvolvimento do trabalho/Deck B – 8 slides (versão detalhada).md",
-    "notebooks/simulacao_margem_3agd.ipynb",
-    "desenvolvimento do trabalho/Modelo-de-Negocio-e-Projecao-Financeira-Consultoria-and-Framework-3AGD.pdf",
-    "desenvolvimento do trabalho/Deck B – 8 slides (versão detalhada).pdf",
-    "desenvolvimento do trabalho/Deck A – 5 slides (pitch relâmpago).pdf",
-    "desenvolvimento do trabalho/Deck A – 5 slides (pitch relâmpago).md",
-    "prompts/Modelo Financeiro/Sem título.md",
-    "prompts/Modelo Financeiro/~$at (1).docx",
-    "docs/docs/TRABALHOS ENTREGUES/Modelo de Negócio e Projeção Financeir.md",
-    "desenvolvimento do trabalho/Sem título.canvas",
-    "docs/docs/TRABALHOS ENTREGUES/RESUMO PARA GAMMA.md",
-    "desenvolvimento do trabalho",
-    "docs/docs/Modelo de Negócio e Projeção Financeir.pdf",
-    "docs/docs/index.md",
-    "docs/docs/TRABALHOS ENTREGUES/Panfleto de venda.md",
-    "docs/docs/TRABALHOS ENTREGUES/Elasticidade das margens.md",
-    "docs/docs/TRABALHOS ENTREGUES/# Modelo de Negócio e Projeção Financeir.md",
-    "docs/docs/getting-started.md",
-    "docs/README.md"
-  ]
+  "active": "d249e11d664738a9",
+  "lastOpenFiles": []
 }
