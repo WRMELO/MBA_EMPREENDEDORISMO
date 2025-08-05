@@ -184,3 +184,133 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# === REGRAS EXISTENTES ===
+# (mantidas do arquivo original)
+# -----------------------------------------
+# Data
+/data/
+
+# Mac OS
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django / Flask / Web
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Docker
+docker-compose.override.yml
+*.env
+.env.local
+.env.*.local
+docker/logs/
+docker/tmp/
+volumes/
+
+# === REGRAS ESPECÍFICAS DO PROJETO A3 ===
+# -----------------------------------------
+# Dados reprocessáveis
+A3_LOCAL/data/md_normalizados/
+A3_LOCAL/data/chroma_ssot_a3/
+A3_LOCAL/desenvolvimento/
+
+# Logs e auditorias
+*.csv
+*.log
+
+# Modelos e artefatos gerados
+models/
+checkpoints/
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+
+# Cache de notebooks
+*.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Backups temporários
+*.bak
+*.tmp
+*~
+
+# Arquivos temporários do sistema
+Thumbs.db
+ehthumbs.db
