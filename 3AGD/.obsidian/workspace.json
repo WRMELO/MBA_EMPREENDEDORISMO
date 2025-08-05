@@ -11,10 +11,14 @@
             "id": "ccc65c52a2db9de5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "A3_LOCAL/data/ssot_a3/A_Case_for_Enhanced_Use_of_Clean_Coal_in.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "A_Case_for_Enhanced_Use_of_Clean_Coal_in"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Decisão de Armazenamento das Coleções ChromaDB – MVP A3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Decisão de Armazenamento das Coleções ChromaDB – MVP A3"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Decisão de Armazenamento das Coleções ChromaDB – MVP A3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para Decisão de Armazenamento das Coleções ChromaDB – MVP A3"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Decisão de Armazenamento das Coleções ChromaDB – MVP A3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de Decisão de Armazenamento das Coleções ChromaDB – MVP A3"
             }
           }
         ]
@@ -161,43 +168,43 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "fd9a0c488931eaa8",
+  "active": "ccc65c52a2db9de5",
   "lastOpenFiles": [
+    "desenvolvimento/Untitled-3.ipynb",
+    "chroma_ssot_a3/ff7d2713-a942-4a3d-ade6-68f2d82cb8d9/link_lists.bin",
+    "chroma_ssot_a3/ff7d2713-a942-4a3d-ade6-68f2d82cb8d9/length.bin",
+    "chroma_ssot_a3/ff7d2713-a942-4a3d-ade6-68f2d82cb8d9/header.bin",
+    "chroma_ssot_a3/ff7d2713-a942-4a3d-ade6-68f2d82cb8d9/data_level0.bin",
+    "chroma_ssot_a3/ff7d2713-a942-4a3d-ade6-68f2d82cb8d9",
+    "chroma_ssot_a3/chroma.sqlite3",
+    "chroma_ssot_a3/3785dc71-7fd9-4a32-9aeb-9db847600584/link_lists.bin",
+    "chroma_ssot_a3/3785dc71-7fd9-4a32-9aeb-9db847600584/length.bin",
+    "chroma_ssot_a3/3785dc71-7fd9-4a32-9aeb-9db847600584/index_metadata.pickle",
+    "chroma_ssot_a3/3785dc71-7fd9-4a32-9aeb-9db847600584/header.bin",
+    "Decisão de Armazenamento das Coleções ChromaDB – MVP A3.md",
+    "CONCEITUAÇÃO FRAMEWORK 3AGD.md",
+    "A3_LOCAL/data/ssot_a3/A_Case_for_Enhanced_Use_of_Clean_Coal_in.md",
+    "A3_LOCAL/data/ssot_a3/STUDY_OF_CIRCULATING_COAL_FLUIDIZED_BOIL_9.md",
+    "A3_LOCAL/data/ssot_a3/STUDY_OF_CIRCULATING_COAL_FLUIDIZED_BOIL_7.md",
+    "A3_LOCAL/data/ssot_a3/Simulation_of_the_sulfur_retention_in_an_1.md",
+    "A3_LOCAL/data/ssot_a3/Progress_in_Chemical_Looping_Combustion_1.md",
+    "A3_LOCAL/data/ssot_a3/OPERATIONAL_STUDY_OF_CIRCULATING_FLUIDIZ_7.md",
+    "A3_LOCAL/data/ssot_a3/Model_of_fragmentation_of_limestone_part_1.md",
+    "A3_LOCAL/data/ssot_a3/Distribution_of_Solids_Concentration_and1.md",
+    "A3_LOCAL/data/ssot_a3/Combustion_and_Gasification_in_Fluidized_19.md",
+    "A3_LOCAL/data/ssot_a3/CFD_modeling_to_study_fluidized_bed_comb_9.md",
+    "A3_LOCAL/data/ssot_a3/Book_combustion_Combustion_and_Gasificat_18.md",
+    "A3_LOCAL/data/ssot_a3/A_scoping_study_on_Oxy_CFB_technology_as_7.md",
+    "A3_LOCAL/data/ssot_a3/Academia_Summary_STUDY_OF_CIRCULATING_COAL_FLUIDIZED_BOILERS_1.md",
+    "A3_LOCAL/data/ssot_a3/Academia_Summary_STUDY_OF_CIRCULATING_COAL_FLUIDIZED_BOILERS.md",
+    "A3_LOCAL/data/ssot_a3/Academia_Summary_Study_of_a_30_MW_bubbling_fluidized_bed_combustor_based_on_co-firing_biomass_and_coal_1.md",
+    "A3_LOCAL/data/ssot_a3/Academia_Summary_Study_of_a_30_MW_bubbling_fluidized_bed_combustor_based_on_co-firing_biomass_and_coal.md",
+    "A3_LOCAL/data/ssot_a3/Academia_Summary_Operating_Experience_of_CFB_Boiler_Burning_Lignite_with_High_Shrinkage_Ash_Property.md",
+    "A3_LOCAL/data/ssot_a3/Academia_Summary_Firing_of_coal_and_biomass_and_their_mixtures_in_50_kW_and_12_MW_circulating_fluidized_beds_Phenomenon_study_and_comparison_of_scales.md",
+    "A3_LOCAL/data/ssot_a3/Academia_Summary_Design_of_a_Small_Scale_CFB_Boiler_Combustion_Chamber_for_Laboratory_Purposes.md",
     "A3_LOCAL/data/legacy/ssot_a3_original/The_Babcock_and_Wilcox_Company_Section_V.md",
     "A3_LOCAL/data/legacy/ssot_a3_original/Waste_Biomass_as_Alternative_Bio_Fuel_Co.md",
     "A3_LOCAL/data/legacy/ssot_a3_original/VELTECH_VEL_TECH_MULTI_TECH_VEL_TECH_HIG.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Utilizing_biomass_and_waste_for_power_pr.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/To_Improve_Thermal_Efficiency_of_27mw_Co.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Time_Averaged_Simulation_of_the_Furnace.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/THERMAL_SYSTEMS.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/The_Role_of_Attrition_and_Solids_Recover.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/The_Experimental_Study_of_Full_scale_Bio.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Thermal_Design_of_Heat_Exchangers.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Technologies_and_Materials_for_Recoverin.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Thermal_Power_Station_2_1_INTRODUCTION.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/supercritical_boiler.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Technology_and_carbon_mitigation_in_deve.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Sulfur_trioxide_formation_emissions_in_c.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Steam_Generation_An_Overview.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/STUDY_OF_CIRCULATING_COAL_FLUIDIZED_BOIL (9).md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/STUDY_OF_CIRCULATING_COAL_FLUIDIZED_BOIL (7).md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Steam_Power_Plant_UNIT_2_STEAM_POWER_PLA.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Steam_41_Steam_Generation_An_Overview_Th.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/SOME_TESTING_RESULT_OF_SHFX7_2_0_130_70.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Simulation_of_the_sulfur_retention_in_an.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Simulation_of_the_sulfur_retention_in_an (1).md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Simulation_of_the_Chemical_Looping_Combu.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Simulation_of_particle_coating_in_the_su.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original/Simulation_of_NO_x_Emission_in_Circulati.md",
-    "A3_LOCAL/data/legacy/ssot_a3_original",
-    "A3_LOCAL/data/legacy/md_normalizados",
-    "A3_LOCAL/data/legacy/chroma_ssot_a3_antigo",
-    "A3_LOCAL/data/legacy",
-    "A3_LOCAL/desenvolvimento/log_normalizacao_md_v2.csv",
-    "A3_LOCAL/data/md_normalizados_v2",
-    "A3_LOCAL/desenvolvimento/log_normalizacao_md.csv",
-    "A3_LOCAL/data/md_normalizados",
-    "A3_LOCAL/desenvolvimento/inventario_md.csv",
-    "A3_LOCAL/src/api"
+    "A3_LOCAL/data/legacy/ssot_a3_original/Utilizing_biomass_and_waste_for_power_pr.md"
   ]
 }

@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  a3_jupyter_local:
+    container_name: a3_jupyter_local
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      # Monta o diretório A3_LOCAL como /workspace
+      - ../../:/workspace
+      # Monta as coleções ChromaDB diretamente no caminho correto
+      - C:/Users/wilso/MBA_EMPREENDEDORISMO/3AGD/chroma_ssot_a3:/workspace/chroma_ssot_a3
+    environment:
+      GEMEO_PATH: "./chroma_ssot_a3"
+      GEMINI_API_KEY: "AIzaSyD5j_CQsGOPbC35cgmROaBAgxiNNwKMkMc"
+    restart: unless-stopped
