@@ -572,7 +572,165 @@ O fluxo de consulta definido:
   
 
 ---
+ 
+
+**Com esta atualização, o documento reflete fielmente o estado atual do projeto, já alinhado com a nova estratégia de desenvolvimento containerizado e o uso das duas bases vetoriais separadas.**
+
+
+# Continuação do Desenvolvimento – Framework 3AGD
 
   
 
-**Com esta atualização, o documento reflete fielmente o estado atual do projeto, já alinhado com a nova estratégia de desenvolvimento containerizado e o uso das duas bases vetoriais separadas.**
+**Atualização: 06/08/2025**
+
+  
+
+## Contexto Inicial
+
+  
+
+A última decisão registrada no documento anterior estabeleceu:
+
+  
+
+> *"Com esta atualização, o documento reflete fielmente o estado atual do projeto, já alinhado com a nova estratégia de desenvolvimento containerizado e o uso das duas bases vetoriais separadas."*
+
+  
+
+## Mudança Estratégica: Abandono do Container
+
+  
+
+Após diversos problemas com travamentos e incompatibilidades de rede associados ao uso do ambiente containerizado, foi decidido abandonar temporariamente o uso de containers. A prioridade passou a ser garantir o funcionamento pleno e fluido do MVP diretamente em ambiente local com `.venv`.
+
+  
+
+### Ações:
+
+  
+
+- Criação e ativação de ambiente virtual `.venv` no diretório raiz do projeto.
+
+- Instalação de todas as dependências necessárias no ambiente local.
+
+- Manutenção da persistência da coleção ChromaDB no caminho local `A3_LOCAL/notebooks/chroma_ssot_a3`.
+
+  
+
+---
+
+  
+
+## Reestruturação da Função de Busca Hierárquica
+
+  
+
+A função `buscar_hierarquico()` passou por uma reformulação completa com os seguintes objetivos:
+
+  
+
+### Alterações realizadas:
+
+  
+
+- **Desacoplamento da lógica**: Agora, a função busca sempre em **ambas** as coleções (`a3_embeddings` e `a3_support_embeddings`).
+
+- **Tradução semântica obrigatória**: mesmo em casos com retorno da base de referência, a base de apoio é sempre consultada.
+
+- **Reescrita unificada via Gemini**: todo o conteúdo recuperado (de ambas as fontes) é consolidado em um único prompt enviado ao Gemini Flash, que devolve uma resposta fluida e integrada.
+
+- **Fallback consistente**: caso nenhuma das bases contenha resultados relevantes, a resposta é tratada de forma elegante, informando ausência de dados.
+
+  
+
+---
+
+  
+
+## Retomada dos Testes com Validação Manual
+
+  
+
+Três tipos de testes foram realizados para garantir a robustez da nova versão:
+
+  
+
+1. **Pergunta existente no SSOT**
+
+2. **Pergunta existente apenas nos artigos de apoio**
+
+3. **Pergunta irrelevante para ambas as bases**
+
+  
+
+Todos os testes foram bem-sucedidos. As respostas foram coerentes, com fluidez textual e clareza técnica, sempre passando pelo Gemini.
+
+  
+
+---
+
+  
+
+## Integração Backend e Frontend
+
+  
+
+Além da API FastAPI já funcional (com endpoint `/query`), foram realizados os seguintes avanços:
+
+  
+
+- ✅ A API FastAPI foi testada localmente e responde corretamente a requisições JSON.
+
+- ✅ A interface Streamlit foi conectada ao backend.
+
+- ✅ O usuário validou que todas as respostas passaram a ser obrigatoriamente intermediadas pelo Gemini Flash, mesmo quando oriundas diretamente do SSOT.
+
+  
+
+---
+
+  
+
+## Infraestrutura Local Corrigida
+
+  
+
+Após abandono dos containers, os caminhos absolutos foram ajustados para refletir a nova estrutura do projeto:
+
+  
+
+- **SSOT markdowns**: `C:/Users/wilso/MBA_EMPREENDEDORISMO/3AGD/A3_LOCAL/data/ssot_a3`
+
+- **Persistência do Chroma**: `C:/Users/wilso/MBA_EMPREENDEDORISMO/3AGD/A3_LOCAL/notebooks/chroma_ssot_a3`
+
+  
+
+Esses caminhos foram parametrizados no notebook via variáveis para facilitar manutenção.
+
+  
+
+---
+
+  
+
+## Conclusão Parcial
+
+  
+
+O MVP atingiu um novo marco de estabilidade, com:
+
+  
+
+- ✅ Indexação das duas coleções funcionando;
+
+- ✅ Busca hierárquica reformulada com retorno fluido;
+
+- ✅ API funcional e testada;
+
+- ✅ Streamlit integrado e operacional;
+
+- ✅ Pronto para ser convertido em `.py` no momento oportuno, mantendo rastreabilidade total via notebook.
+
+  
+
+---
